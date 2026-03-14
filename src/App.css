@@ -1,0 +1,141 @@
+/* ============================= */
+/*          THEMES               */
+/* ============================= */
+
+/* 🌙 DARK MODE */
+
+.dark {
+  background-color: #0b1220;
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+/* ☀️ LIGHT MODE */
+
+.light {
+  background-color: #f5f7fa;
+  color: #111827;
+  min-height: 100vh;
+}
+
+/* ============================= */
+/*          HEADINGS             */
+/* ============================= */
+
+h1 {
+  text-align: center;
+  padding-top: 24px;
+  font-size: 2.2rem;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ============================= */
+/*         SEARCH BAR            */
+/* ============================= */
+
+input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* ============================= */
+/*           BUTTONS             */
+/* ============================= */
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* ============================= */
+/*           TABLE BASE          */
+/* ============================= */
+
+table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #d1d5db;
+}
+
+/* ============================= */
+/*       DARK MODE TABLE         */
+/* ============================= */
+
+.dark table {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.dark th {
+  background-color: #1f2937;
+}
+
+.dark tr:hover {
+  background-color: #1f2937;
+  transition: 0.2s ease;
+}
+
+/* ============================= */
+/*       LIGHT MODE TABLE        */
+/* ============================= */
+
+.light table {
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.light th {
+  background-color: #e5e7eb;
+}
+
+.light tr:hover {
+  background-color: #f3f4f6;
+  transition: 0.2s ease;
+}
+
+/* ============================= */
+/*       COIN CELL ALIGNMENT     */
+/* ============================= */
+
+td:first-child {
+  text-align: center;
+}
+
+/* ============================= */
+/*       SMOOTH TRANSITIONS      */
+/* ============================= */
+
+table,
+button,
+input {
+  transition: all 0.2s ease;
+}
